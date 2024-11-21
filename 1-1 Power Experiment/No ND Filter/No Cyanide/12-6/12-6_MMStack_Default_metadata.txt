@@ -19,12 +19,12 @@
   "UserData": {}
 },
 "FrameKey-0-0-0": {
-  "UUID": "5a93f552-b87d-4914-90c3-c06e9e72e230",
+  "UUID": "48d74207-307f-4a96-9767-8792436f4294",
   "Camera": "Prime BSI Camera Model",
   "Binning": 1,
   "ROI": "0-0-2048-2048",
   "BitDepth": 16,
-  "ReceivedTime": "2024-02-05 09:07:37.891 -0600",
+  "ReceivedTime": "2024-02-05 13:15:05.886 -0600",
   "PixelSizeUm": 0.0,
   "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
   "PositionName": "Default",

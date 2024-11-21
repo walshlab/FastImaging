@@ -46,7 +46,7 @@
                 },
                 "ScalingMax": {
                   "type": "LONG",
-                  "scalar": 147
+                  "scalar": 201
                 },
                 "ScalingMin": {
                   "type": "LONG",
