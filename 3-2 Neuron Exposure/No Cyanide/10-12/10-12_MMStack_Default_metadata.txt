@@ -1,0 +1,580 @@
+{
+"Summary": {
+  "MicroManagerVersion": "2.0.0",
+  "MetadataVersion": "12.0.0",
+  "ChannelGroup": "",
+  "ChNames": [
+    "Default"
+  ],
+  "AxisOrder": [
+    "channel",
+    "time",
+    "z",
+    "position"
+  ],
+  "TimeFirst": false,
+  "SlicesFirst": true,
+  "Width": 0,
+  "Height": 0,
+  "UserData": {}
+},
+"FrameKey-0-0-0": {
+  "UUID": "6671c6ea-6114-4665-8c30-637bd6d95f32",
+  "Camera": "Prime BSI Camera Model",
+  "Binning": 1,
+  "ROI": "0-0-2048-2048",
+  "BitDepth": 16,
+  "ReceivedTime": "2024-01-22 15:35:56.757 -0600",
+  "PixelSizeUm": 0.0,
+  "PixelSizeAffine": "0.0;0.0;0.0;0.0;0.0;0.0",
+  "PositionName": "Default",
+  "XPositionUm": 0.0,
+  "YPositionUm": 0.0,
+  "ZPositionUm": 0.0,
+  "Prime BSI Camera Model-AcquisitionMethod": "Callbacks",
+  "Prime BSI Camera Model-ActualInterval-ms": "23.0000",
+  "Prime BSI Camera Model-Binning": "1x1",
+  "Prime BSI Camera Model-CCDTemperature": "-0.2500",
+  "Prime BSI Camera Model-CCDTemperatureSetPoint": "0.0000",
+  "Prime BSI Camera Model-ChipName": "GS2020",
+  "Prime BSI Camera Model-CircularBufferAutoSize": "ON",
+  "Prime BSI Camera Model-CircularBufferEnabled": "ON",
+  "Prime BSI Camera Model-CircularBufferFrameCount": "43",
+  "Prime BSI Camera Model-CircularBufferFrameRecovery": "OFF",
+  "Prime BSI Camera Model-ClearCycles": "2",
+  "Prime BSI Camera Model-ClearMode": "Auto",
+  "Prime BSI Camera Model-Color": "OFF",
+  "Prime BSI Camera Model-Description": "PVCAM API device adapter",
+  "Prime BSI Camera Model-DiskStreamingCoreSkipRatio": "1:100",
+  "Prime BSI Camera Model-DiskStreamingEnabled": "No",
+  "Prime BSI Camera Model-DiskStreamingPath": "",
+  "Prime BSI Camera Model-ExposeOutMode": "Rolling Shutter",
+  "Prime BSI Camera Model-Exposure": "10.00",
+  "Prime BSI Camera Model-FTCapable": "No",
+  "Prime BSI Camera Model-FanSpeedSetpoint": "Medium",
+  "Prime BSI Camera Model-FirmwareVersion": "25.12",
+  "Prime BSI Camera Model-FullWellCapacity": "45000",
+  "Prime BSI Camera Model-Gain": "1-HDR",
+  "Prime BSI Camera Model-MetadataEnabled": "No",
+  "Prime BSI Camera Model-Name": "PMUSBCam00",
+  "Prime BSI Camera Model-Offset": "100",
+  "Prime BSI Camera Model-PMode": "Normal",
+  "Prime BSI Camera Model-PP  0 DESPECKLE BRIGHT LOW": "DESPECKLE BRIGHT LOW",
+  "Prime BSI Camera Model-PP  1   ENABLED": "Yes",
+  "Prime BSI Camera Model-PP  1   THRESHOLD": "120",
+  "Prime BSI Camera Model-PP  1 DESPECKLE BRIGHT HIGH": "DESPECKLE BRIGHT HIGH",
+  "Prime BSI Camera Model-PP  2   ENABLED": "Yes",
+  "Prime BSI Camera Model-PP  2   MIN ADU AFFECTED": "200",
+  "Prime BSI Camera Model-PP  2   THRESHOLD": "125",
+  "Prime BSI Camera Model-PP  2 DESPECKLE DARK LOW": "DESPECKLE DARK LOW",
+  "Prime BSI Camera Model-PP  3   ENABLED": "Yes",
+  "Prime BSI Camera Model-PP  3   THRESHOLD": "80",
+  "Prime BSI Camera Model-PP  3 DESPECKLE DARK HIGH": "DESPECKLE DARK HIGH",
+  "Prime BSI Camera Model-PP  4   ENABLED": "Yes",
+  "Prime BSI Camera Model-PP  4   MIN ADU AFFECTED": "200",
+  "Prime BSI Camera Model-PP  4   THRESHOLD": "75",
+  "Prime BSI Camera Model-PP  4 FRAME SUMMING": "FRAME SUMMING",
+  "Prime BSI Camera Model-PP  5   COUNT": "4",
+  "Prime BSI Camera Model-PP  5   ENABLED": "No",
+  "Prime BSI Camera Model-PP  6 Reset": "No",
+  "Prime BSI Camera Model-PVCAM Adapter Version": "1.3.61",
+  "Prime BSI Camera Model-PVCAM Version": "3.9.9",
+  "Prime BSI Camera Model-PixelType": "16bit",
+  "Prime BSI Camera Model-Port": "CMOS",
+  "Prime BSI Camera Model-PreampDelay": "0",
+  "Prime BSI Camera Model-PreampOffLimit": "10000",
+  "Prime BSI Camera Model-ReadoutRate": "100MHz 16bit",
+  "Prime BSI Camera Model-SMARTStreamingEnabled": "No",
+  "Prime BSI Camera Model-SMARTStreamingValues[ms]": "10.000;20.000;30.000;40.000",
+  "Prime BSI Camera Model-ScanDirection": "Down",
+  "Prime BSI Camera Model-ScanDirectionReset": "Yes",
+  "Prime BSI Camera Model-ScanLineDelay": "0",
+  "Prime BSI Camera Model-ScanLineTime": "11200.0000",
+  "Prime BSI Camera Model-ScanMode": "Auto",
+  "Prime BSI Camera Model-ScanWidth": "0",
+  "Prime BSI Camera Model-SerialNumber": "A20G726009",
+  "Prime BSI Camera Model-ShutterCloseDelay": "0",
+  "Prime BSI Camera Model-ShutterMode": "Pre-Exposure",
+  "Prime BSI Camera Model-ShutterOpenDelay": "0",
+  "Prime BSI Camera Model-Timing-ClearingTimeNs": "0.0000",
+  "Prime BSI Camera Model-Timing-ExposureTimeNs": "10002000.0000",
+  "Prime BSI Camera Model-Timing-PostTriggerDelayNs": "11200.0000",
+  "Prime BSI Camera Model-Timing-PreTriggerDelayNs": "12937600.0000",
+  "Prime BSI Camera Model-Timing-ReadoutTimeNs": "22937000.0000",
+  "Prime BSI Camera Model-TransposeCorrection": "0",
+  "Prime BSI Camera Model-TransposeMirrorX": "0",
+  "Prime BSI Camera Model-TransposeMirrorY": "0",
+  "Prime BSI Camera Model-TransposeXY": "0",
+  "Prime BSI Camera Model-Trigger Timeout (secs)": "10",
+  "Prime BSI Camera Model-TriggerMode": "Internal Trigger",
+  "Prime BSI Camera Model-X-dimension": "2048",
+  "Prime BSI Camera Model-Y-dimension": "2048",
+  "Core-AutoFocus": "",
+  "Core-AutoShutter": "1",
+  "Core-Camera": "Prime BSI Camera Model",
+  "Core-ChannelGroup": "",
+  "Core-Focus": "",
+  "Core-Galvo": "",
+  "Core-ImageProcessor": "",
+  "Core-Initialize": "1",
+  "Core-SLM": "",
+  "Core-Shutter": "",
+  "Core-TimeoutMs": "5000",
+  "Core-XYStage": "",
+  "ScopeDataKeys": [
+    "Prime BSI Camera Model-AcquisitionMethod",
+    "Prime BSI Camera Model-ActualInterval-ms",
+    "Prime BSI Camera Model-Binning",
+    "Prime BSI Camera Model-CCDTemperature",
+    "Prime BSI Camera Model-CCDTemperatureSetPoint",
+    "Prime BSI Camera Model-ChipName",
+    "Prime BSI Camera Model-CircularBufferAutoSize",
+    "Prime BSI Camera Model-CircularBufferEnabled",
+    "Prime BSI Camera Model-CircularBufferFrameCount",
+    "Prime BSI Camera Model-CircularBufferFrameRecovery",
+    "Prime BSI Camera Model-ClearCycles",
+    "Prime BSI Camera Model-ClearMode",
+    "Prime BSI Camera Model-Color",
+    "Prime BSI Camera Model-Description",
+    "Prime BSI Camera Model-DiskStreamingCoreSkipRatio",
+    "Prime BSI Camera Model-DiskStreamingEnabled",
+    "Prime BSI Camera Model-DiskStreamingPath",
+    "Prime BSI Camera Model-ExposeOutMode",
+    "Prime BSI Camera Model-Exposure",
+    "Prime BSI Camera Model-FTCapable",
+    "Prime BSI Camera Model-FanSpeedSetpoint",
+    "Prime BSI Camera Model-FirmwareVersion",
+    "Prime BSI Camera Model-FullWellCapacity",
+    "Prime BSI Camera Model-Gain",
+    "Prime BSI Camera Model-MetadataEnabled",
+    "Prime BSI Camera Model-Name",
+    "Prime BSI Camera Model-Offset",
+    "Prime BSI Camera Model-PMode",
+    "Prime BSI Camera Model-PP  0 DESPECKLE BRIGHT LOW",
+    "Prime BSI Camera Model-PP  1   ENABLED",
+    "Prime BSI Camera Model-PP  1   THRESHOLD",
+    "Prime BSI Camera Model-PP  1 DESPECKLE BRIGHT HIGH",
+    "Prime BSI Camera Model-PP  2   ENABLED",
+    "Prime BSI Camera Model-PP  2   MIN ADU AFFECTED",
+    "Prime BSI Camera Model-PP  2   THRESHOLD",
+    "Prime BSI Camera Model-PP  2 DESPECKLE DARK LOW",
+    "Prime BSI Camera Model-PP  3   ENABLED",
+    "Prime BSI Camera Model-PP  3   THRESHOLD",
+    "Prime BSI Camera Model-PP  3 DESPECKLE DARK HIGH",
+    "Prime BSI Camera Model-PP  4   ENABLED",
+    "Prime BSI Camera Model-PP  4   MIN ADU AFFECTED",
+    "Prime BSI Camera Model-PP  4   THRESHOLD",
+    "Prime BSI Camera Model-PP  4 FRAME SUMMING",
+    "Prime BSI Camera Model-PP  5   COUNT",
+    "Prime BSI Camera Model-PP  5   ENABLED",
+    "Prime BSI Camera Model-PP  6 Reset",
+    "Prime BSI Camera Model-PVCAM Adapter Version",
+    "Prime BSI Camera Model-PVCAM Version",
+    "Prime BSI Camera Model-PixelType",
+    "Prime BSI Camera Model-Port",
+    "Prime BSI Camera Model-PreampDelay",
+    "Prime BSI Camera Model-PreampOffLimit",
+    "Prime BSI Camera Model-ReadoutRate",
+    "Prime BSI Camera Model-SMARTStreamingEnabled",
+    "Prime BSI Camera Model-SMARTStreamingValues[ms]",
+    "Prime BSI Camera Model-ScanDirection",
+    "Prime BSI Camera Model-ScanDirectionReset",
+    "Prime BSI Camera Model-ScanLineDelay",
+    "Prime BSI Camera Model-ScanLineTime",
+    "Prime BSI Camera Model-ScanMode",
+    "Prime BSI Camera Model-ScanWidth",
+    "Prime BSI Camera Model-SerialNumber",
+    "Prime BSI Camera Model-ShutterCloseDelay",
+    "Prime BSI Camera Model-ShutterMode",
+    "Prime BSI Camera Model-ShutterOpenDelay",
+    "Prime BSI Camera Model-Timing-ClearingTimeNs",
+    "Prime BSI Camera Model-Timing-ExposureTimeNs",
+    "Prime BSI Camera Model-Timing-PostTriggerDelayNs",
+    "Prime BSI Camera Model-Timing-PreTriggerDelayNs",
+    "Prime BSI Camera Model-Timing-ReadoutTimeNs",
+    "Prime BSI Camera Model-TransposeCorrection",
+    "Prime BSI Camera Model-TransposeMirrorX",
+    "Prime BSI Camera Model-TransposeMirrorY",
+    "Prime BSI Camera Model-TransposeXY",
+    "Prime BSI Camera Model-Trigger Timeout (secs)",
+    "Prime BSI Camera Model-TriggerMode",
+    "Prime BSI Camera Model-X-dimension",
+    "Prime BSI Camera Model-Y-dimension",
+    "Core-AutoFocus",
+    "Core-AutoShutter",
+    "Core-Camera",
+    "Core-ChannelGroup",
+    "Core-Focus",
+    "Core-Galvo",
+    "Core-ImageProcessor",
+    "Core-Initialize",
+    "Core-SLM",
+    "Core-Shutter",
+    "Core-TimeoutMs",
+    "Core-XYStage"
+  ],
+  "UserData": {
+    "Core-AutoFocus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-AutoShutter": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-Camera": {
+      "type": "STRING",
+      "scalar": "Prime BSI Camera Model"
+    },
+    "Core-ChannelGroup": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Focus": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Galvo": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-ImageProcessor": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Initialize": {
+      "type": "STRING",
+      "scalar": "1"
+    },
+    "Core-SLM": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-Shutter": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Core-TimeoutMs": {
+      "type": "STRING",
+      "scalar": "5000"
+    },
+    "Core-XYStage": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Prime BSI Camera Model-AcquisitionMethod": {
+      "type": "STRING",
+      "scalar": "Callbacks"
+    },
+    "Prime BSI Camera Model-ActualInterval-ms": {
+      "type": "STRING",
+      "scalar": "23.0000"
+    },
+    "Prime BSI Camera Model-Binning": {
+      "type": "STRING",
+      "scalar": "1x1"
+    },
+    "Prime BSI Camera Model-CCDTemperature": {
+      "type": "STRING",
+      "scalar": "-0.2500"
+    },
+    "Prime BSI Camera Model-CCDTemperatureSetPoint": {
+      "type": "STRING",
+      "scalar": "0.0000"
+    },
+    "Prime BSI Camera Model-ChipName": {
+      "type": "STRING",
+      "scalar": "GS2020"
+    },
+    "Prime BSI Camera Model-CircularBufferAutoSize": {
+      "type": "STRING",
+      "scalar": "ON"
+    },
+    "Prime BSI Camera Model-CircularBufferEnabled": {
+      "type": "STRING",
+      "scalar": "ON"
+    },
+    "Prime BSI Camera Model-CircularBufferFrameCount": {
+      "type": "STRING",
+      "scalar": "43"
+    },
+    "Prime BSI Camera Model-CircularBufferFrameRecovery": {
+      "type": "STRING",
+      "scalar": "OFF"
+    },
+    "Prime BSI Camera Model-ClearCycles": {
+      "type": "STRING",
+      "scalar": "2"
+    },
+    "Prime BSI Camera Model-ClearMode": {
+      "type": "STRING",
+      "scalar": "Auto"
+    },
+    "Prime BSI Camera Model-Color": {
+      "type": "STRING",
+      "scalar": "OFF"
+    },
+    "Prime BSI Camera Model-Description": {
+      "type": "STRING",
+      "scalar": "PVCAM API device adapter"
+    },
+    "Prime BSI Camera Model-DiskStreamingCoreSkipRatio": {
+      "type": "STRING",
+      "scalar": "1:100"
+    },
+    "Prime BSI Camera Model-DiskStreamingEnabled": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Camera Model-DiskStreamingPath": {
+      "type": "STRING",
+      "scalar": ""
+    },
+    "Prime BSI Camera Model-ExposeOutMode": {
+      "type": "STRING",
+      "scalar": "Rolling Shutter"
+    },
+    "Prime BSI Camera Model-Exposure": {
+      "type": "STRING",
+      "scalar": "10.00"
+    },
+    "Prime BSI Camera Model-FTCapable": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Camera Model-FanSpeedSetpoint": {
+      "type": "STRING",
+      "scalar": "Medium"
+    },
+    "Prime BSI Camera Model-FirmwareVersion": {
+      "type": "STRING",
+      "scalar": "25.12"
+    },
+    "Prime BSI Camera Model-FullWellCapacity": {
+      "type": "STRING",
+      "scalar": "45000"
+    },
+    "Prime BSI Camera Model-Gain": {
+      "type": "STRING",
+      "scalar": "1-HDR"
+    },
+    "Prime BSI Camera Model-MetadataEnabled": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Camera Model-Name": {
+      "type": "STRING",
+      "scalar": "PMUSBCam00"
+    },
+    "Prime BSI Camera Model-Offset": {
+      "type": "STRING",
+      "scalar": "100"
+    },
+    "Prime BSI Camera Model-PMode": {
+      "type": "STRING",
+      "scalar": "Normal"
+    },
+    "Prime BSI Camera Model-PP  0 DESPECKLE BRIGHT LOW": {
+      "type": "STRING",
+      "scalar": "DESPECKLE BRIGHT LOW"
+    },
+    "Prime BSI Camera Model-PP  1   ENABLED": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Camera Model-PP  1   THRESHOLD": {
+      "type": "STRING",
+      "scalar": "120"
+    },
+    "Prime BSI Camera Model-PP  1 DESPECKLE BRIGHT HIGH": {
+      "type": "STRING",
+      "scalar": "DESPECKLE BRIGHT HIGH"
+    },
+    "Prime BSI Camera Model-PP  2   ENABLED": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Camera Model-PP  2   MIN ADU AFFECTED": {
+      "type": "STRING",
+      "scalar": "200"
+    },
+    "Prime BSI Camera Model-PP  2   THRESHOLD": {
+      "type": "STRING",
+      "scalar": "125"
+    },
+    "Prime BSI Camera Model-PP  2 DESPECKLE DARK LOW": {
+      "type": "STRING",
+      "scalar": "DESPECKLE DARK LOW"
+    },
+    "Prime BSI Camera Model-PP  3   ENABLED": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Camera Model-PP  3   THRESHOLD": {
+      "type": "STRING",
+      "scalar": "80"
+    },
+    "Prime BSI Camera Model-PP  3 DESPECKLE DARK HIGH": {
+      "type": "STRING",
+      "scalar": "DESPECKLE DARK HIGH"
+    },
+    "Prime BSI Camera Model-PP  4   ENABLED": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Camera Model-PP  4   MIN ADU AFFECTED": {
+      "type": "STRING",
+      "scalar": "200"
+    },
+    "Prime BSI Camera Model-PP  4   THRESHOLD": {
+      "type": "STRING",
+      "scalar": "75"
+    },
+    "Prime BSI Camera Model-PP  4 FRAME SUMMING": {
+      "type": "STRING",
+      "scalar": "FRAME SUMMING"
+    },
+    "Prime BSI Camera Model-PP  5   COUNT": {
+      "type": "STRING",
+      "scalar": "4"
+    },
+    "Prime BSI Camera Model-PP  5   ENABLED": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Camera Model-PP  6 Reset": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Camera Model-PVCAM Adapter Version": {
+      "type": "STRING",
+      "scalar": "1.3.61"
+    },
+    "Prime BSI Camera Model-PVCAM Version": {
+      "type": "STRING",
+      "scalar": "3.9.9"
+    },
+    "Prime BSI Camera Model-PixelType": {
+      "type": "STRING",
+      "scalar": "16bit"
+    },
+    "Prime BSI Camera Model-Port": {
+      "type": "STRING",
+      "scalar": "CMOS"
+    },
+    "Prime BSI Camera Model-PreampDelay": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-PreampOffLimit": {
+      "type": "STRING",
+      "scalar": "10000"
+    },
+    "Prime BSI Camera Model-ReadoutRate": {
+      "type": "STRING",
+      "scalar": "100MHz 16bit"
+    },
+    "Prime BSI Camera Model-SMARTStreamingEnabled": {
+      "type": "STRING",
+      "scalar": "No"
+    },
+    "Prime BSI Camera Model-SMARTStreamingValues[ms]": {
+      "type": "STRING",
+      "scalar": "10.000;20.000;30.000;40.000"
+    },
+    "Prime BSI Camera Model-ScanDirection": {
+      "type": "STRING",
+      "scalar": "Down"
+    },
+    "Prime BSI Camera Model-ScanDirectionReset": {
+      "type": "STRING",
+      "scalar": "Yes"
+    },
+    "Prime BSI Camera Model-ScanLineDelay": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-ScanLineTime": {
+      "type": "STRING",
+      "scalar": "11200.0000"
+    },
+    "Prime BSI Camera Model-ScanMode": {
+      "type": "STRING",
+      "scalar": "Auto"
+    },
+    "Prime BSI Camera Model-ScanWidth": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-SerialNumber": {
+      "type": "STRING",
+      "scalar": "A20G726009"
+    },
+    "Prime BSI Camera Model-ShutterCloseDelay": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-ShutterMode": {
+      "type": "STRING",
+      "scalar": "Pre-Exposure"
+    },
+    "Prime BSI Camera Model-ShutterOpenDelay": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-Timing-ClearingTimeNs": {
+      "type": "STRING",
+      "scalar": "0.0000"
+    },
+    "Prime BSI Camera Model-Timing-ExposureTimeNs": {
+      "type": "STRING",
+      "scalar": "10002000.0000"
+    },
+    "Prime BSI Camera Model-Timing-PostTriggerDelayNs": {
+      "type": "STRING",
+      "scalar": "11200.0000"
+    },
+    "Prime BSI Camera Model-Timing-PreTriggerDelayNs": {
+      "type": "STRING",
+      "scalar": "12937600.0000"
+    },
+    "Prime BSI Camera Model-Timing-ReadoutTimeNs": {
+      "type": "STRING",
+      "scalar": "22937000.0000"
+    },
+    "Prime BSI Camera Model-TransposeCorrection": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-TransposeMirrorX": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-TransposeMirrorY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-TransposeXY": {
+      "type": "STRING",
+      "scalar": "0"
+    },
+    "Prime BSI Camera Model-Trigger Timeout (secs)": {
+      "type": "STRING",
+      "scalar": "10"
+    },
+    "Prime BSI Camera Model-TriggerMode": {
+      "type": "STRING",
+      "scalar": "Internal Trigger"
+    },
+    "Prime BSI Camera Model-X-dimension": {
+      "type": "STRING",
+      "scalar": "2048"
+    },
+    "Prime BSI Camera Model-Y-dimension": {
+      "type": "STRING",
+      "scalar": "2048"
+    }
+  },
+  "FileName": "10-12_MMStack_Default.ome.tif"
+}
+}
